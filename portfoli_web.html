@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="portfolio_.css" rel="stylesheet">
+    <!-- <link href="./csstyle/portfolio_(1000).css" media="screen and (max-width:1000px)" rel="stylesheet"> -->
+</head>
+
+
+<body>
+    <navbar class="nav" id="mytopnav">
+        <div class="logo">
+            <h2> Portfolio.</h2>
+        </div>
+        <div class="menubar">
+            <a href="#home" onclick="closefun()">Home</a>
+            <a href="#about" onclick="closefun()">About</a>
+            <a href="#service" onclick="closefun()">Service</a>
+            <a href="#portfolio" onclick="closefun()">Portfolio</a>
+            <a href="#contact" onclick="closefun()">Contact</a>
+        </div>
+        <div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" id="menu-icon"></i></a>
+        </div>
+    </navbar>
+
+    <section class="Home" id="home">
+        <div class="first">
+            <div>
+                <div class="gap">
+                    <div>
+                        <h3>Hello it's Me</h3>
+                        <h1>Lj Laijyour</h1>
+                        <h3>And I'm a <span id="dynamic"></span></h3>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, aut et voluptas commodi
+                        dignissimos
+                        eos
+                        consequuntur consectetur fugiat impedit dolore tempora inventore eum! Vero, consectetur.</p>
+                </div>
+                <div id="social-media" class="gap">
+                    <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a> </li>
+                    <a href="https://www.youtube.com/@Laijyour/" target="_blank"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://www.linkedin.com/in/luv-thakur-623b09201/" target="_blank">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/LuvThakur/" target="_blank"> <i class='bx bxl-github'></i></a>
+                </div>
+
+                <a class="gap" href="#" id="button"> Download CV</a>
+
+            </div>
+        </div>
+
+        <div class="second">
+
+            <img src="https://i.pinimg.com/236x/ba/a1/7e/baa17ed8690fdf815915fbd3629cbd9f.jpg">
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div class="about">
+            <div class="profile">
+                <img src="https://i.pinimg.com/236x/ba/a1/7e/baa17ed8690fdf815915fbd3629cbd9f.jpg">
+            </div>
+            <div class="profile_add">
+                <h1> About <span> Me </span></h1>
+                <h4>Frontend Developer!</h4>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, alias magnam! Adipisci harum culpa
+                    distinctio voluptatum aliquid facere nam animi, illum optio molestias quae repellendus, obcaecati
+                    explicabo laudantium veniam reprehenderit earum ut odit numquam? Adipisci voluptatibus doloremque
+                    ullam!
+                    Exercitationem reiciendis repellat molestias pariatur atque sit nobis, reprehenderit eum modi!
+                    Officiis.
+                </p>
+
+                <div>
+                    <a id="read" href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <h1>Our <span>Service </span></h1>
+
+        <div class="serv-cont">
+            <div class="item">
+                <i class='bx bx-code-alt'></i>
+                <h2>Web Development</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor id vitae et, veniam quam tempore nobis
+                    assumenda nemo, sapiente est saepe sit </p>
+
+                <div>
+                    <a class="read" href="#">Read More</a>
+                </div>
+            </div>
+            <div class="item">
+                <i class='bx bx-paint'></i>
+                <h2>Graphic Design</h2>
+
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor id vitae et, veniam quam tempore nobis
+                    assumenda nemo, sapiente est saepe sit </p>
+                <div>
+                    <a class="read" href="#">Read More</a>
+                </div>
+
+            </div>
+            <div class="item">
+                <i class='bx bxs-bar-chart-alt-2'></i>
+                <h2> Digital Marketing </h2>
+
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor id vitae et, veniam quam tempore nobis
+                    assumenda nemo, sapiente est saepe sit </p>
+                <div>
+                    <a class="read" href="#">Read More</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h1>Latest <span> Project </span></h1>
+        <div class="portfolio_cont">
+            <div class="item_img">
+                <img src="https://i.pinimg.com/564x/e9/f2/5f/e9f25f9e9daf2e355e7c44b5877c46ba.jpg">
+                <div class="port_layer">
+
+                    <h4> FoodAdda</h4>
+                    <p> This is food website ,here i made UI of this website. foodAdda is just small Project </p>
+                </div>
+            </div>
+            <div class="item_img">
+                <img src="https://i.pinimg.com/564x/98/e7/ee/98e7eea2951d587a83882c5048d6620c.jpg">
+                <div class="port_layer">
+                    <h4> Face-Reconize </h4>
+                    <p> This is face Reconize software in machine learnig . Face reco project coding in python</p>
+                </div>
+            </div>
+            <div class="item_img">
+                <img src="https://i.pinimg.com/564x/9c/10/da/9c10da342eff27a2953259ceb1326bf2.jpg">
+                <div class="port_layer">
+
+                    <h4>Url-Shortner </h4>
+                    <p>This is Url-shortener website whose work to shotener the Large url into small url </p>
+                </div>
+            </div>
+            <div class="item_img">
+                <img src="https://i.pinimg.com/564x/49/de/3e/49de3e6055c07d43e398b7a3fd1cce18.jpg">
+                <div class="port_layer">
+
+                    <h4> Myntra Clone</h4>
+                    <p> This is Myntra Clone it simmilar like an myntra. It is just only for fun </p>
+                </div>
+            </div>
+            <div class="item_img">
+                <img src="https://i.pinimg.com/564x/be/7a/af/be7aaf78a3ef1d5bb841dee75c1c9999.jpg">
+                <div class="port_layer">
+
+                    <h4> spotify Clone</h4>
+                    <p> This is clone of spotify music app. here its UI and working are similar to spotify</p>
+                </div>
+            </div>
+            <div class="item_img">
+                <img src="https://i.pinimg.com/564x/98/e7/ee/98e7eea2951d587a83882c5048d6620c.jpg">
+                <div class="port_layer">
+
+                    <h4>window_11 UI</h4>
+                    <p> This is window_11 UI clone whose UI similar to window_11 UI. limited functioning</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1> Contact <span> Me! </span></h1>
+        <form>
+            <div class="formpage">
+                <div class="form_div">
+                    <input type="text" name="name" placeholder="Full Name">
+                    <input type="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="form_div">
+                    <input type="text" name="number" placeholder="Mobile Number">
+                    <input type="text" name="subject" placeholder="Email Subject">
+                </div>
+                <div class="form_div">
+                    <textarea cols="" rows="9" placeholder="Your Message"> </textarea>
+                </div>
+                <div class="form_div">
+                    <button id="btn" type="button">Send Message</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer class="foot">
+        <div class="foot-text">Copyright &copy; 2023 by Laijyour | All Right Reserved</div>
+        <div class="foot-icon">
+            <a href="#home" id="uparrow"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+</body>
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+<script>
+    //  type .js 
+    const type = new Typed('#dynamic',
+        {
+
+            strings: ["Frontend Developer ", "Video Creator", "YouTuber "],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+
+    // myfunction()
+
+    function myFunction() {
+        var x = document.getElementById('mytopnav');
+        var icon = document.getElementById('menu-icon');
+
+        if (x.className === 'nav') {
+            x.className += ' responsive';
+            icon.className = 'fa fa-times';
+        } else {
+            x.className = 'nav';
+            icon.className = 'fa fa-bars';
+        }
+    }
+
+    //   closefun
+
+    function closefun() {
+        var y = document.getElementById('mytopnav');
+        var ic = document.getElementById('menu-icon');
+
+        ic.className = "fa fa-bars";
+        y.className = 'nav';
+
+    }
+
+</script>
+
+</html>
